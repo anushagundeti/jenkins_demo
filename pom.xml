@@ -61,7 +61,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>devops-integration</finalName>
+		<finalName>springboot-demo</finalName>
 	</build>
 
 </project>

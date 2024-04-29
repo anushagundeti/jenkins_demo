@@ -1,4 +1,4 @@
 FROM openjdk:17
-EXPOSE 8000
-ADD target/devops-integration.jar devops-integration.jar
-ENTRYPOINT ["java","-jar","/devops-integration.jar"]
+EXPOSE 8080
+ADD target/springboot-demo.jar springboot-demo.jar
+ENTRYPOINT ["java","-jar","/springboot-demo.jar"]
